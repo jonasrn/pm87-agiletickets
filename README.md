@@ -1,9 +1,6 @@
-Agile Tickets
-=============
-
-Começando a desenvolver
+ser
 -----------------------
-
+tee
 Esse projeto usa Ant + Ivy para build e gerenciamento de dependências. Para pegar as bibliotecas faltantes e ter o projeto completamente configurado, no terminal, rode:
 
 ``` bash
