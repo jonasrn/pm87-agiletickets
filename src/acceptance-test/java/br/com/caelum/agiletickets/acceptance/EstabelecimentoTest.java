@@ -1,4 +1,3 @@
-/*
 package br.com.caelum.agiletickets.acceptance;
 
 import org.junit.AfterClass;
@@ -10,20 +9,24 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import br.com.caelum.agiletickets.acceptance.page.EstabelecimentosPage;
 
+public class EstabelecimentoTest {
 
 	public static String BASE_URL = "http://localhost:8080";
 	private static WebDriver browser;
 	private EstabelecimentosPage estabelecimentos;
 
-
+	
+	@BeforeClass
 	public static void abreBrowser() {
 		browser = new FirefoxDriver();
 	}
 
+	@Before
 	public void setUp() throws Exception {
 		estabelecimentos = new EstabelecimentosPage(browser);
 	}
 
+	@AfterClass
 	public static void teardown() {
 		browser.close();
 	}
@@ -74,4 +77,3 @@ import br.com.caelum.agiletickets.acceptance.page.EstabelecimentosPage;
 	}
 	
 }
-*/

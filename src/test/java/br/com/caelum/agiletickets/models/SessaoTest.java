@@ -37,7 +37,7 @@ public class SessaoTest {
 		Assert.assertEquals(2, sessao.getIngressosDisponiveis().intValue());
 	}
 	//cria1SessaoDiariaComecaETerminaHoje
-	//cria3SessaoSeComecaHojeETerminaDepoisDeAmanha
+	//cria3SessaoSeComecaHojeETerminaDepoisDeA
 	// cria1SessaoSemanalComcaHojeTerminaAmanha
 	
 }
