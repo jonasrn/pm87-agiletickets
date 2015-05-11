@@ -36,5 +36,8 @@ public class SessaoTest {
 		sessao.reserva(3);
 		Assert.assertEquals(2, sessao.getIngressosDisponiveis().intValue());
 	}
+	//cria1SessaoDiariaComecaETerminaHoje
+	//cria3SessaoSeComecaHojeETerminaDepoisDeAmanha
+	// cria1SessaoSemanalComcaHojeTerminaAmanha
 	
 }
